@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="423px" height="157px" viewBox="0 0 423 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>画板</title>
+    <desc>Created with Sketch.</desc>
+    <g id="画板" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="kindle" transform="translate(15.000000, 13.000000)" fill-rule="nonzero">
+            <path d="M0,120.333333 L0,12.6666666 C0,5.7 5.68125001,0 12.625,0 L88.375,0 C95.31875,0 101,5.7 101,12.6666666 L101,120.333333 C101,127.3 95.31875,133 88.375,133 L12.625,133 C5.68125001,133 0,127.3 0,120.333333 Z" id="路径" fill="#37474F"></path>
+            <path d="M85.8333334,9 L16.1666666,9 C14.2666666,9 13,10.2774193 13,12.1935483 L13,104.806452 C13,106.722581 14.2666666,108 16.1666666,108 L85.8333334,108 C87.7333334,108 89,106.722581 89,104.806452 L89,12.1935483 C89,10.2774193 87.7333334,9 85.8333334,9 Z" id="路径" fill="#EEEEEE"></path>
+            <polygon id="路径" fill="#546E7A" points="38 117 63 117 63 124 38 124"></polygon>
+            <path d="M25,25 L76,25 L76,34.5714286 L25,34.5714286 L25,25 Z M25,47.3333333 L76,47.3333333 L76,53.7142857 L25,53.7142857 L25,47.3333333 Z M25,60.095238 L63.25,60.095238 L63.25,66.4761904 L25,66.4761904 L25,60.095238 Z M25,72.8571429 L76,72.8571429 L76,79.2380951 L25,79.2380951 L25,72.8571429 Z M25,85.6190476 L63.25,85.6190476 L63.25,92 L25,92 L25,85.6190476 Z" id="形状" fill="#A1A1A1"></path>
+        </g>
+        <text id="Kindle-Applications" font-family="PingFangSC-Light, PingFang SC" font-size="50" font-weight="300" fill="#37474F">
+            <tspan x="133" y="63">Kindle</tspan>
+            <tspan x="133" y="133">Applications</tspan>
+        </text>
+    </g>
+</svg>
