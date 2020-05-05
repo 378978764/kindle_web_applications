@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Clock</title>
+  <link rel="stylesheet" href="/assets/css/modal.css">
+</head>
+<body>
+  <div class="clockOutter">
+    <div id="timeString"></div>
+  </div>
+</body>
+<script>
+  /**
+   * Tick the click.
+   * */
+  setInterval(function() {
+    tick()
+  }, 1000);
+  
+  function tick () {
+    var time = new Date()
+    var content = toTwo(time.getHours()) + ' : ' + toTwo(time.getMinutes())
+    setText(content)
+  }
+
+  function toTwo (hour) {
+    return hour < 10 ? '0' + hour : hour
+  }
+
+  function setText (content) {
+    document.getElementById("timeString").innerText = content
+  }
+</script>
+<style>
+  .clockOutter {
+    text-align: center;
+    font-size: 4rem;
+  }
+  #timeString {
+    border: 2px solid #aaaaaa;
+    margin: 4rem 4rem;
+  }
+</style>
+</html>
