@@ -20,11 +20,11 @@
    * */
   setInterval(function() {
     tick()
-  }, 1000);
+  }, 1000)
   
   function tick () {
     var time = new Date()
-    var content = toTwo(time.getHours()) + ' : ' + toTwo(time.getMinutes())
+    var content = toTwo(addDelta(time.getHours())) + ' : ' + toTwo(time.getMinutes())
     setText(content)
   }
 
@@ -34,6 +34,12 @@
 
   function setText (content) {
     document.getElementById("timeString").innerText = content
+  }
+
+  function addDelta (num) {
+    var delta = 8
+    var res = delta + num
+    return res >= 24 ? res - 24 : res
   }
 </script>
 <style>
